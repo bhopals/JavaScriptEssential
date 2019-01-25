@@ -1,7 +1,15 @@
 # JavaScriptEssential Features
 
+## Index
 
-## Introduction
+[Introduction](#introduction)
+[Background](#background)
+[Java Script Loading Methods](#javascript-loading-methods)
+[Some Golden Rules](#some-golden-rules)
+[Working with Data](#working-with-data)
+
+#introduction
+### Introduction 
 
 **Wikipedia defination** : > Java script is a high level dynamic, untyped, and interpreted programming language strandardized in the  ECMAScript language specification. 
 
@@ -12,6 +20,7 @@ Basically these are the three distictively layer of code a webpage contains
 
 **Simple Defination** : > A scripting language which provides way to handle event and dom manupulation dynamically. (Provide an option to interact with the webpage)
 
+#background
 ### Background
 Originally called **Mocha** then renamed to **LiveScripts** and finally to **JavaScript** when Netscape and Sun Microsystems did a licence agreement that included a language ( Just for the sake of cash in "Java's" name and popularity, completely unrealted to the features or any code systax rules)
 
@@ -29,5 +38,23 @@ Originally called **Mocha** then renamed to **LiveScripts** and finally to **Jav
 
  **Node.js** - A JavaScript platform built on browser runtime environment. Used to run advanced operations and applications on server and computers using JavaScript.
 
+** Always add the javascript reference file after the end of <body> tag to avoid **JavaScript Render Blocking** as the rendering is blocked till the script is loaded and executed, which also most of the times result into "error" and the dom is yet to be rendered and any referencing in the JS file would throw an error.
 
-### 
+#javascript-loading-methods
+#### JavaScript Loading methods (At what time script execution should start)
+    -  Right away Loading (Default)  - <script src="app.js"></script>
+    -  Asynchronous Loading - <script src="app.js" asnyc></script>
+    -  Deferred Loading - <script src="app.js" defer></script>
+
+#some-golden-rules
+#### Some Golden Rules
+
+    -   JavaScript is **Case Sensitive**
+    -   Use **camelCase**
+    -   Whitespace Matters (to Humans - for the sake of READABLE)
+    -   End each statement with a Semicolon (Not required but just as a Good Practice)
+    -   User Comments Liberally ( it improve readabilities)
+    
+
+#working-with-data
+#### Working with DATA
