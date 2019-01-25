@@ -1,3 +1,8 @@
-var date = new Date();
+function findBiggestFraction(a, b) {
+    var final;
+    a>b?final=a : final=b;
+    console.log(final+" is bigger")
+}
 
-document.body.innerHTML = "<h1> Today is: "+date+" </h1>";
+findBiggestFraction(7/2, 6/5);
+findBiggestFraction(2/2, 8/5);
