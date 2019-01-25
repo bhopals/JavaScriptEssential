@@ -1,1 +1,1 @@
-"# JavaScriptEssential" 
+"# JavaScriptEssential Features" 
