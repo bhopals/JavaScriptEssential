@@ -1,8 +1,8 @@
 function findBiggestFraction(a, b) {
-    var final;
-    a>b?final=a : final=b;
-    console.log(final+" is bigger")
+    var result;
+    a > b  ?  result = ["firstFraction", a] : result = ["secondFraction", b];
+    return result;
 }
 
-findBiggestFraction(7/2, 6/5);
-findBiggestFraction(2/2, 8/5);
+console.log(findBiggestFraction(7/2, 6/5));
+console.log(findBiggestFraction(2/2, 8/5));
