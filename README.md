@@ -1,4 +1,4 @@
-# JavaScriptEssential Features
+# JavaScript Essential Features
 
 ## Index
 
@@ -103,9 +103,13 @@ Quick Note : To access object properties and methods javascript provide *DOT(.)*
 
 **Closures** - A function inside a function that relies on variables in the outside function to work.
 
-`` Check functions-and-objects.js for sample code example.``
+***Check functions-and-objects.js for sample code examples.**
 
 
 
 
 ### JavaScript and the DOM
+
+-   The Browser is an Object and the document it displays is an Object too such as Window, URL, Document, Navigation, Location etc. [ Browser Object model or BOM for short]
+-   Document in turn has its own Object model called Document Object Model (DOM), consists of various DOM nodes.
+-   Browser as a result creates NODE Tree to modelling relationship between different nodes.
