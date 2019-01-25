@@ -14,6 +14,7 @@
 
 [Functions and Objects](#functions-and-objects)
 
+[JavaScript and the DOM](#javascript-and-the-dom)
 
 
 
@@ -90,3 +91,21 @@ Originally called **Mocha** then renamed to **LiveScripts** and finally to **Jav
     -   Named Functions
     -   Anonymous Functions
     -   Immediately invoked function expressions (IIFE)
+
+**Variable Scope**
+    -   Global 
+    -   Local
+
+**Objects** - Objects are used when we want to create a cluster of realted data of something, and maybe perform some actions or operations on that data.
+OR in more formalized sence, objects are *data models* that allow us to combine property and data for a specific data set in a structured way.
+
+Quick Note : To access object properties and methods javascript provide *DOT(.)* and *BRACKET([])* notation. The reason it has both ways because not in all cases  *DOT(.)* will work, for example, special characters in name or extra SPACES, in that case the  *BRACKET([])* is the rescuer and should be used.
+
+**Closures** - A function inside a function that relies on variables in the outside function to work.
+
+`` Check functions-and-objects.js for sample code example.``
+
+
+
+
+### JavaScript and the DOM
